@@ -2,14 +2,13 @@
 .mobile-nav-btn {
 	--time: 0.1s;
 
-	--width: 40px;
-	--height: 30px;
+	--width: 15px;
+	--height: 10px;
 
-	--line-height: 4px;
-	--spacing: 6px;
+	--line-height: 1px;
+	--spacing: 2px;
 
-	--color: #000;
-	--radius: 4px;
+	--color: var(--neutral-900);
 
 	/* Fixed height and width */
 	/* height: var(--height); */

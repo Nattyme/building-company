@@ -26,6 +26,25 @@
   color: var(--neutral-600);
 }
 .about__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .about__item {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+  
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.44;
+  color: var(--neutral-600);
+
+  span {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1.33;
+    color: var(--neutral-900);
+  }
 }

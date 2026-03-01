@@ -95,31 +95,40 @@
 			</section>
 
 			<section class="our-work">
-				<div class="container">
-					<div class="our-work__content">
-						<div class="our-work__title visual-hidden">
-							<h1>Наши работы</h1>
-						</div>
+				<div class="our-work__content">
+					<div class="our-work__title visually-hidden">
+						<h1>Наши работы</h1>
+					</div>
+
+					<div class="container-right">
 						<div class="our-work__swiper">
 							<!-- Slider main container -->
-							<div class="swiper">
+							<div class="swiper swiper-our-work">
 								<!-- Additional required wrapper -->
 								<div class="swiper-wrapper">
 									<!-- Slides -->
-									<div class="swiper-slide">Slide 1</div>
-									<div class="swiper-slide">Slide 2</div>
-									<div class="swiper-slide">Slide 3</div>
-									&#8230;
+									<div class="swiper-slide swiper-slide-our-work">
+										<picture>
+											<source srcset="./img/our-work/home-sample-1.webp 1x, ./img/our-work/home-sample-1@2x.webp 2x" type="image/webp" />
+											<source srcset="./img/our-work/home-sample-1.jpg 1x, ./img/our-work/home-sample-1@2x.jpg 2x" type="image/jpeg" />
+											<img src="./img/our-work/home-sample-1.jpg" srcset="./img/our-work/home-sample-1@2x.jpg 2x" loading="lazy" alt="Alt" />
+										</picture>
+									</div>
+									<div class="swiper-slide swiper-slide-our-work">
+										<picture>
+											<source srcset="./img/our-work/home-sample-2.webp 1x, ./img/our-work/home-sample-2@2x.webp 2x" type="image/webp" />
+											<source srcset="./img/our-work/home-sample-2.jpg 1x, ./img/our-work/home-sample-2@2x.jpg 2x" type="image/jpeg" />
+											<img src="./img/our-work/home-sample-2.jpg" srcset="./img/our-work/home-sample-2@2x.jpg 2x" loading="lazy" alt="Alt" />
+										</picture>
+									</div>
+									<div class="swiper-slide swiper-slide-our-work">
+										<picture>
+											<source srcset="./img/our-work/home-sample-3.webp 1x, ./img/our-work/home-sample-3@2x.webp 2x" type="image/webp" />
+											<source srcset="./img/our-work/home-sample-3.jpg 1x, ./img/our-work/home-sample-3@2x.jpg 2x" type="image/jpeg" />
+											<img src="./img/our-work/home-sample-3.jpg" srcset="./img/our-work/home-sample-3@2x.jpg 2x" loading="lazy" alt="Alt" />
+										</picture>
+									</div>
 								</div>
-								<!-- If we need pagination -->
-								<div class="swiper-pagination"></div>
-
-								<!-- If we need navigation buttons -->
-								<div class="swiper-button-prev"></div>
-								<div class="swiper-button-next"></div>
-
-								<!-- If we need scrollbar -->
-								<div class="swiper-scrollbar"></div>
 							</div>
 						</div>
 					</div>

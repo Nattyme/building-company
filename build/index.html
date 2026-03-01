@@ -4,7 +4,8 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Стартовый шаблон | ВебКадеми</title>
+		<title>Стартовый шаблон | Строительная компания</title>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
 		<link rel="stylesheet" href="./css/main.css" />
 
 		<link rel="icon" type="image/x-icon" href="./img/favicons/favicon.svg" />
@@ -92,6 +93,38 @@
 					</div>
 				</div>
 			</section>
+
+			<section class="our-work">
+				<div class="container">
+					<div class="our-work__content">
+						<div class="our-work__title visual-hidden">
+							<h1>Наши работы</h1>
+						</div>
+						<div class="our-work__swiper">
+							<!-- Slider main container -->
+							<div class="swiper">
+								<!-- Additional required wrapper -->
+								<div class="swiper-wrapper">
+									<!-- Slides -->
+									<div class="swiper-slide">Slide 1</div>
+									<div class="swiper-slide">Slide 2</div>
+									<div class="swiper-slide">Slide 3</div>
+									&#8230;
+								</div>
+								<!-- If we need pagination -->
+								<div class="swiper-pagination"></div>
+
+								<!-- If we need navigation buttons -->
+								<div class="swiper-button-prev"></div>
+								<div class="swiper-button-next"></div>
+
+								<!-- If we need scrollbar -->
+								<div class="swiper-scrollbar"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 		</main>
 		<footer class="footer">
 			<div class="container">
@@ -101,6 +134,7 @@
 			</div>
 		</footer>
 
+		<script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
 		<script src="./js/index.bundle.js"></script>
 	</body>
 </html>

@@ -5,7 +5,11 @@
 	<meta charset="UTF-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Стартовый шаблон | ВебКадеми</title>
+	<title>Стартовый шаблон | Строительная компания</title>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+  />
 	<link rel="stylesheet" href="./css/main.css" />
 
 	<link rel="icon" type="image/x-icon" href="./img/favicons/favicon.svg">
@@ -16,8 +20,10 @@
 	@@include('blocks/header.html')
 	<main class="main">
 		@@include('blocks/about.html')
+		@@include('blocks/our-work.html')
 	</main>
 	@@include('blocks/footer.html')
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
 	<script src="./js/index.bundle.js"></script>
 </body>
 

@@ -1,0 +1,31 @@
+.about {
+  padding-top: 120px;
+  padding-bottom: 80px;
+}
+.container {
+}
+.about__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  column-gap: 50px;
+}
+.about__column:last-child {
+  width: 680px;
+  flex-shrink: 0;
+}
+.about__title {
+}
+.about__text {
+  margin-bottom: 80px;
+
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.44;
+  color: var(--neutral-600);
+}
+.about__list {
+}
+.about__item {
+}

@@ -2,8 +2,7 @@
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.container {
-}
+
 .answers__content {
   display: flex;
   justify-content: space-between;
@@ -13,8 +12,7 @@
 .answers__column:first-child {
   min-width: 550px;
 }
-.answers__text {
-}
+
 .answers__title {
   margin-bottom: 24px;
 }
@@ -24,8 +22,7 @@
   line-height: 1.44;
   color: var(--neutral-600);
 }
-.answers__list {
-}
+
 .answers__list-item {
   padding: 24px;
 }
@@ -34,6 +31,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  column-gap: 12px;
 
   padding-bottom: 24px;
   font-weight: 500;

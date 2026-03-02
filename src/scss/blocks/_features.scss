@@ -1,0 +1,42 @@
+.features {
+  padding-top: 80px;
+  padding-bottom: 120px;
+  padding-right: 80px;
+}
+
+.features__content {
+}
+.our-work__title {
+}
+.visually-hidden {
+}
+.features__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  & > * {
+    max-width: 50%;
+  }
+}
+.features__list {
+  margin-left: auto;
+}
+.features__item + .features__item {
+  margin-top: 40px;
+}
+
+.features__subtitle {
+  margin-bottom: 24px;
+  display: block;
+  
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.33;
+  color: var(--neutral-900);
+}
+.features__text {
+  font-size: 18px;
+  line-height: 1.44;
+  color: var(--neutral-600);
+}

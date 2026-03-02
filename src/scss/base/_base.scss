@@ -6,10 +6,11 @@ html {
 }
 
 body {
-	background-color: var(--page-bg);
-	color: var(--text-color);
+	// background-color: var(--page-bg);
+
 	font-family: var(--font-main);
 	text-wrap: balance;
+  font-weight: 400;
 }
 
 img {

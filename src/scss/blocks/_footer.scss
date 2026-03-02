@@ -9,6 +9,11 @@
 
 	a {
 		color: var(--neutral-600);
+    transition: color 0.2s ease-in;
+    
+    &:hover {
+      color: #000;
+    }
 	}
 
 	@media (max-width: 1200px) {
@@ -50,10 +55,7 @@
   line-height: 1.44;
   color: var(--neutral-900);
 }
-.footer__list {
-}
-.footer__item {
-}
+
 .footer__link {
   font-size: 16px;
   line-height: 1;

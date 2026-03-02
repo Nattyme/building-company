@@ -1,11 +1,14 @@
-.header__nav {
-}
 .nav {
 	font-size: 18px;
 }
 .nav__list {
 	display: flex;
 	column-gap: 30px;
-}
-.active {
+
+  a {
+    transition: color 0.2s ease-in;
+    &:hover {
+      color: #000;
+    }
+  }
 }

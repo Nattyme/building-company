@@ -38,6 +38,12 @@
 .gallery__image-large {
   width: 680px;
   height: 734px;
+
+  @media (max-width: 1999px) {
+    .gallery__image-large {
+      max-width: 680px;
+    }
+  }
 }
 .gallery__image-small {
   width: 460px;

@@ -1,0 +1,40 @@
+/* Плюс- минус элемент */
+.plusminus {
+  display: block;
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.plusminus::before,  
+.plusminus::after {
+  box-sizing: border-box;
+  position: absolute;
+  content: '';
+  display: inline-block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  transition: transform 0.2s ease-in, background-color 0.2s ease-in;
+  background-color: #000;
+  pointer-events: none;
+}
+
+.plusminus::before {
+  width: 16px;
+  height: 2px;
+  right: 15px;
+}
+
+.plusminus::after {
+  width: 2px;
+  height: 16px;
+  right: 22px;
+}
+
+.plusminus.active::after {
+  width: 16px;
+  height: 2px;
+  right: 18px;
+}
